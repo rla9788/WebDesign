@@ -67,7 +67,6 @@ a{
 }
 .footer-sub{
     float: left;
-    left: 200px;
     width: 1000px;
     height: 100px;
 }
@@ -81,6 +80,7 @@ a{
     height: 50px;
     background: #ccc;
 }
+
 
 .navi{
     position: relative;
