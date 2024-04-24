@@ -1,0 +1,118 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.box{
+    width: 1000px;
+    height: 650px;
+}
+.left_box{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background: darkcyan;
+}
+.navi{
+    width: 200px;
+    height: 550px;
+    background: lightgreen;
+}
+.right_box{
+    float: left;
+    width: 800px;
+    height: 100%;
+}
+.slide{
+    width: 800px;
+    height: 350px;
+    background: lightblue;
+}
+.contents{
+    width: 800px;
+    height: 200px;
+}
+.notice_box{
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: darkslategray;
+}
+.banner_box{
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: slategray;
+}
+.icon_box{
+    float: left;
+    width: 240px;
+    height: 100%;
+    background: lightslategray;
+}
+.footer{
+    width: 800px;
+    height: 100px;
+}
+.down_logo{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: seagreen;
+}
+.copyright{
+    float: left;
+    width: 600px;
+    height: 100%;
+}
+.down_menu{
+    width: 100%;
+    height: 50px;
+    background: lightseagreen;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    background: darkcyan;
+}
+
+
+
+.menu{
+    position: relative;
+    top: 20px;
+    width: 180px;
+    text-align: center;
+    background: #333;
+    cursor: pointer;
+}
+.menu > li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+}
+.menu > li > a{
+    color: #fff;
+}
+.menu > li:hover{
+    background: darkolivegreen;
+}
+.submenu{
+    position: relative;
+    left: 180px;
+    bottom: 40px;
+    background: #e2e2e2;
+    display: none;
+}
+.submenu > li:hover{
+    background: ivory;
+}
