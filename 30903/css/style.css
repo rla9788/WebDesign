@@ -109,10 +109,10 @@ a {
 .submenu {
     position: absolute;
     width: 180px;
-    height: 200px;
     background: lightcyan;
     top: 0px;
     left: 180px;
+    display: none;
 }
 .submenu > li {
     width: 180px;
