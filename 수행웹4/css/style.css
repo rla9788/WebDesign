@@ -5,9 +5,6 @@
     padding: 0;
     list-style: none;
     color: #333;
-}
-html, body{
-    min-width: 1200px;
     font-size: 20px;
 }
 a{
@@ -21,6 +18,17 @@ header{
 }
 .wrap{
     width: 1200px;
+}
+.logo{
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.menu{
+    float: right;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
 }
 .bodywrap{
     width: 1200px;
@@ -37,22 +45,6 @@ header{
     width: 1200px;
     height: 200px;
     position: absolute;
-}
-footer{
-    width: 100%;
-    height: 100px;
-    background: #30a3f3;
-}
-.logo{
-    float: left;
-    width: 250px;
-    height: 100px;
-}
-.menu{
-    float: right;
-    width: 800px;
-    height: 100px;
-    z-index: 1;
 }
 .tabmenu{
     float: left;
@@ -79,6 +71,11 @@ footer{
     height: 180px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #30a3f3;
 }
 .btlogo{
     float: left;
